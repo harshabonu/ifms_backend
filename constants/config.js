@@ -1,6 +1,7 @@
 const corsOptions = {
     origin: [
       "http://localhost:3001",
+      "https://ifms-five.vercel.app",
       process.env.CLIENT_URL,
       
     ],
